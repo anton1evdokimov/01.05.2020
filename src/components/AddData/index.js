@@ -25,7 +25,7 @@ const AddData = props => {
   
   return (
     <form className="add-data" onSubmit={addTask}>
-      <h2>Менеджер задач</h2>
+      <h2>Менеджер задач&nbsp;&nbsp;&nbsp;<img src="/images/logo.svg" alt="VisionLabs" title="VisionLabs" /></h2>
       <textarea className="add-data__text" rows="3" onChange={changeText} name="text" value={text} />
       <input className="add-data__date" type="datetime-local" name="date" onBlur={changeDate} defaultValue={date}/>
       <input className="add-data__button" value="Добавить" type="submit" />

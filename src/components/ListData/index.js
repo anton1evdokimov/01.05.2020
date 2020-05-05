@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './index.css';
 import { connect } from 'react-redux';
 import { changeDataActionCreator } from '../../store/actions/changeDataActionCreator';
