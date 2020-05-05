@@ -1,0 +1,39 @@
+.list-data {
+  font-family: inherit;
+  display: flex;
+  flex-grow: 1;
+  box-sizing: border-box;
+  padding: 12px;
+  height: calc(100vh - 70px);
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  background-color: rgb(255, 255, 255);
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
+
+.list-data__item {
+  list-style: none;
+  margin-bottom: 12px;
+  padding: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.list-data__item:hover {
+  cursor: pointer;
+  background-color: rgb(255, 235, 205);
+}
+
+.list-data__text--checked {
+  text-decoration: line-through;
+}
+
+.list-data__checkbox {
+  cursor: pointer;
+  margin-right: 12px;
+}
